@@ -64,7 +64,7 @@ def main():
             requests.post(
                 WEBHOOK,
                 json={"content": (
-                    f"🔴 Live en cours !\n"\n"
+                    f"🔴 Live en cours !\n"
                     f"https://www.whatnot.com/fr-FR/live/{live_id}\n"
                     f"Profil : {URL}"
                 )},
